@@ -2,11 +2,11 @@
 
 <div align="center">
 
-![OpenVPN](https://img.shields.io/badge/OpenVPN-2.6.14-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-12_Bookworm-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-Workstation-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![easy-rsa](https://img.shields.io/badge/easy--rsa-PKI-065A82?style=for-the-badge&logo=openssl&logoColor=white)
-![AES](https://img.shields.io/badge/AES--256--GCM-Chiffrement-22C55E?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-2.6.14-EA7E20)
+![Debian](https://img.shields.io/badge/Debian-12%20Bookworm-A81D33)
+![VMware](https://img.shields.io/badge/VMware-Workstation-607078)
+![easy-rsa](https://img.shields.io/badge/easy--rsa-PKI-065A82)
+![Chiffrement](https://img.shields.io/badge/Chiffrement-AES--256-22C55E)
 
 *Projet Sécurité Réseau — La Plateforme*
 
