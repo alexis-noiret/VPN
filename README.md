@@ -14,7 +14,7 @@
 
 ---
 
-## 📋 Contexte
+## 🧭 Contexte
 
 **Kompta Plus Bien (KPB)** est un cabinet comptable basé à Marignane employant une trentaine de personnes. Dans le cadre du télétravail, l'entreprise a besoin d'une connexion sécurisée permettant à ses 30 salariés d'accéder aux documents de comptabilité, factures internes et dossiers partagés.
 
@@ -46,7 +46,7 @@ La solution retenue : **OpenVPN** sur infrastructure Debian, testé sur maquette
 
 ---
 
-## ✅ Ce qui a été réalisé
+## ✅ Réalisations clés
 
 | Élément | Statut | Détail |
 |---------|--------|--------|
@@ -64,7 +64,7 @@ La solution retenue : **OpenVPN** sur infrastructure Debian, testé sur maquette
 
 ---
 
-## 📁 Structure du projet
+## 📁 Structure du dépôt
 
 ```
 vpn-kpb/
@@ -254,15 +254,25 @@ ping 10.8.0.1 -c 3
 
 ---
 
-## 🎯 Compétences visées
+## 🧠 Compétences démontrées
 
-- ➔ Administrer et sécuriser les infrastructures systèmes
-- ➔ Administrer et sécuriser les infrastructures réseaux
-- ➔ Participer à l'élaboration et à la mise en œuvre de la politique de sécurité
+- **Déploiement VPN** : OpenVPN 2.6.14 sur Debian 12 (serveur et client), démarrage automatique via `systemd`.
+- **PKI** : autorité de certification avec easy-rsa, certificats serveur et client, Diffie-Hellman 2048 bits.
+- **Sécurité** : authentification TLS mutuelle (`tls-auth` + certificats X.509) et chiffrement AES-256.
+- **Réseau** : forwarding IP, tunnel `tun0` validé (0 % de perte de paquets).
+- **Résilience** : script watchdog lancé par cron toutes les 5 minutes.
+- **Authentification forte** : 2FA Google Authenticator via PAM, testée en local (intégration OpenVPN non finalisée).
+- **Échanges sécurisés** : transfert des certificats par SCP via SSH.
+
+### 🎯 Compétences du référentiel visées
+
+- Administrer et sécuriser les infrastructures systèmes
+- Administrer et sécuriser les infrastructures réseaux
+- Participer à l'élaboration et à la mise en œuvre de la politique de sécurité
 
 ---
 
-## 🧰 Stack technique
+## 🛠️ Stack technique
 
 | Technologie | Usage |
 |-------------|-------|
@@ -280,3 +290,12 @@ ping 10.8.0.1 -c 3
 <div align="center">
   <sub>Projet réalisé dans le cadre de la formation Full Stack & Cybersécurité — <strong>La Plateforme</strong></sub>
 </div>
+
+---
+
+## 👤 Auteur
+
+**Alexis Noiret** — Bachelor IT Cybersécurité, La Plateforme
+
+- Portfolio : [alexis-noiret.students-laplateforme.io](https://alexis-noiret.students-laplateforme.io)
+- GitHub : [github.com/alexis-noiret](https://github.com/alexis-noiret)
